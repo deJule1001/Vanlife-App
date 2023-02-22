@@ -14,9 +14,49 @@
     <title>Vanlife</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Hello</h1>
-      <a href="" class="btn btn-primary">Click me</a>
+    <div class="search-container">
+      <input type="text" placeholder="Enter location" />
+      <button>Search</button>
+    </div>
+    <div class="result-container">
+      <div class="current-day">
+        <h2>City Name</h2>
+        <p>Precipitation: XX%</p>
+        <p>Wind Speed: XX km/h</p>
+        <p>Date and Time: XX/XX/XXXX XX:XX</p>
+        <p>Cloudy: Yes/No</p>
+        <h1>Current Temperature: XX°C</h1>
+      </div>
+      <div class="weekly-forecast">
+        <div class="day-forecast">
+          <h3>Monday</h3>
+          <p>XX°C</p>
+          <img src="sun-emoji.png" alt="Sun" />
+        </div>
+        <div class="day-forecast">
+          <h3>Tuesday</h3>
+          <p>XX°C</p>
+          <img src="rain-emoji.png" alt="Rain" />
+        </div>
+        <div class="day-forecast">
+          <h3>Wednesday</h3>
+          <p>XX°C</p>
+          <img src="cloudy-emoji.png" alt="Cloudy" />
+        </div>
+        <div class="day-forecast">
+          <h3>Thursday</h3>
+          <p>XX°C</p>
+          <img src="sun-emoji.png" alt="Sun" />
+        </div>
+        <div class="day-forecast">
+          <h3>Friday</h3>
+          <p>XX°C</p>
+          <img src="rain-emoji.png" alt="Rain" />
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>This project was realized by Jule.</p>
     </div>
     <script src="src/app.js"></script>
   </body>
